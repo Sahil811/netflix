@@ -8,7 +8,7 @@ const requests = {
   fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
   fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
-  fetchAnime: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
+  fetchAnimation: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
   fetchFantasy: `/discover/movie?api_key=${API_KEY}&with_genres=14`,
   fetchNetflixOriginals: `discover/tv?api_key=${API_KEY}&sort_by=popularity.desc&with_networks=213`,
 };

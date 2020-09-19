@@ -22,7 +22,7 @@ function App() {
       <Row title="Documentries" fetchUrl={requests.fetchDocumentaries} />
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
-      <Row title="Anime" fetchUrl={requests.fetchAnime} />
+      <Row title="Animation" fetchUrl={requests.fetchAnimation} />
       <Row title="Fantasy Movies" fetchUrl={requests.fetchFantasy} />
     </div>
   );
